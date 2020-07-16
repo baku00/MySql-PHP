@@ -1,0 +1,8 @@
+{
+    "name": "mysql/mysql-php",
+    "description": "Fast sql",
+    "type": "library",
+    "license": "None",
+    "minimum-stability": "dev",
+    "require": {}
+}
