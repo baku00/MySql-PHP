@@ -1,13 +1,15 @@
 <?php
   // File connections path
   // exemple:
-  // 'firstConnection'=>[
-  //   'db'        =>  'myDataBase',
-  //   'host'      =>  'myHost',
-  //   'port'      =>  'myPort',
-  //   'username'  =>  'myUsername',
-  //   'password'  =>  'myPassword',
-  // ],
+  // $connections=>[
+  //   'firstConnection'=>[
+  //    'db'        =>  'myDataBase',
+  //    'host'      =>  'myHost',
+  //    'port'      =>  'myPort',
+  //    'username'  =>  'myUsername',
+  //    'password'  =>  'myPassword',
+  //  ],
+  // ];
   $path['connections'] = '../src/functions/mysql/connections.inc.php';
 
   // Show mysql errors
@@ -16,4 +18,4 @@
   // {FILE} = $e->getFile();
   // {LINE} = $e->getLine();
   // {MESSAGE} = $e->getMessage();
-  $mysql['error']['message']='Err PDO dans {FILE} [{LINE}] {MESSAGE}';
+  $mysql['error']['message']='Err PDO dans {FILE} [{LINE}] {MESSAGE}' ;
