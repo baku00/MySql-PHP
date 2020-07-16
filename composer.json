@@ -1,5 +1,5 @@
 {
-    "name": "mysql/mysql-php",
+    "name": "userdev/mysql-php",
     "description": "Fast sql",
     "type": "library",
     "license": "None",
